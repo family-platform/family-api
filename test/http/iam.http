@@ -1,0 +1,10 @@
+GET http://{{endpoint}}/iam
+Accept: application/json
+
+###
+POST http://{{endpoint}}/iam/auth/sign-in
+Content-Type: application/x-www-form-urlencoded
+
+id=99&content=new-element
+
+###

@@ -1,0 +1,39 @@
+{
+  "name": "family-api",
+  "version": "1.0.0",
+  "description": "family-api",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/family-platform/family-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/family-platform/family-api/issues"
+  },
+  "homepage": "https://github.com/family-platform/family-api#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.11.0",
+    "jwks-rsa": "^1.7.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^3.6.0",
+    "koa-logger": "^3.2.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^8.0.8",
+    "routing-controllers": "^0.8.1-alpha.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/koa": "^2.11.2",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-router": "^7.4.0"
+  }
+}
