@@ -1,13 +1,14 @@
-import {Controller, Param, Body, Get, Post, Put, Delete, QueryParam} from "routing-controllers";
+import {Controller, Get, QueryParam} from "routing-controllers";
+import {Family} from "../model/family";
 
 @Controller()
 export class FamilyController {
 
     @Get("/family")
-    getOne(@QueryParam("id", {required: true}) id: number) {
-        return "This action returns user #" + id;
+    async get(@QueryParam("id", {required: true}) id: number) {
+        const families = await Family.find({});
+        return families;
     }
-
 
 
 }

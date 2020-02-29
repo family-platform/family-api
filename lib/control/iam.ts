@@ -10,10 +10,4 @@ export class IAMController {
         return "user";
     }
 
-    @Post("/iam/auth/sign-in")
-    signIn(@Body({ required: true }) auth: IAM.SignIn) {
-        return auth;
-    }
-
-
 }
